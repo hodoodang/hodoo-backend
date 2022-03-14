@@ -1,6 +1,7 @@
 # compiled output
 /dist
 /node_modules
+out
 
 # Logs
 logs
@@ -15,8 +16,12 @@ lerna-debug.log*
 .DS_Store
 
 # Tests
+/benchmarks/memory
 /coverage
 /.nyc_output
+/packages/graphql
+/benchmarks/memory
+build/config\.gypi
 
 # IDEs and editors
 /.idea
@@ -33,3 +38,16 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Environments
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Sqlite3 DB Local files
+.db
+
+# Prisma Local files
+migrations/
