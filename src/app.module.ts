@@ -5,8 +5,8 @@ import { UsersModule } from './users/users.module';
 import { ApiController } from './api-controller/api-controller.controller';
 
 @Module({
-  imports: [UsersModule],
-  controllers: [ApiController, AppController],
-  providers: [AppService],
+    imports: [UsersModule],
+    controllers: [ApiController, AppController],
+    providers: [AppService],
 })
 export class AppModule {}
