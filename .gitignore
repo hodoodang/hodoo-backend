@@ -44,7 +44,8 @@ build/config\.gypi
 
 # Sqlite3 DB Local files
 .db
-dev.db
+dev.db*
+.db*
 
 # Prisma Local files
 migrations/
